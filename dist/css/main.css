@@ -1,0 +1,55 @@
+@charset "utf-8";
+a,body{color:#333}
+body{font-family:Microsoft Yahei,Arial,Helvetica,sans-serif,helvetica,arial;margin:0 auto;width:100%;min-width:320px;-webkit-text-size-adjust:none;background:#f8f8f8;font-size:.7rem}
+button,dd,dl,dt,form,h1,h2,h3,h4,h5,h6,iframe,input,ol,p,select,textarea,ul{margin:0;padding:0;font-family:Microsoft Yahei,Arial,Helvetica,sans-serif}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;font-family:Microsoft Yahei,Arial,Helvetica,sans-serif}
+video,video embed,video iframe,video object{width:100%;height:auto}
+img{border:0;vertical-align:top;max-width:100%;height:auto;width:auto\9;-ms-interpolation-mode:bicubic}
+.homepage .page1 header .right ul:nth-child(2) .on,.homepage .page1 header .right ul:nth-child(2) li:hover{border-bottom:2px solid #FFF}
+.linehigh,.linelow{width:1px;margin:0 auto;background-color:#d8d8d8}
+li,ul{list-style-type:none}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+a{text-decoration:none}
+cite,em,i{font-style:normal}
+button,input,select,textarea{-webkit-appearance:none;border-radius:0;font-family:Microsoft Yahei,Arial,Helvetica,sans-serif}
+@font-face{font-family:PingFangSC-Regular;src:url(../../fonts/PingFangSC-Regular.ttf)}
+.linelow{height:70px}
+.linehigh{height:150px}
+.homepage,.homepage .page{width:100%}
+.homepage{min-width:1200px}
+.homepage .page1{height:100vh;background:url(../images/index/Bitmap.png) no-repeat;background-size:100% 100%}
+.homepage .page1 header{width:100%;height:100px;position:relative}
+.homepage .page1 header .left{float:left;margin-left:120px;margin-top:24px;cursor:pointer}
+.homepage .page1 header .right{float:right;margin-right:150px}
+.homepage .page1 header .right .top{overflow:hidden}
+.homepage .page1 header .right ul{display:block;overflow:hidden}
+.homepage .page1 header .right ul li{float:left}
+.homepage .page1 header .right ul:first-child{margin-top:20px;float:right}
+.homepage .page1 header .right ul:first-child li{font-family:PingFangSC-Regular;font-size:14px;color:#FFF;letter-spacing:0;margin-left:44px;opacity:.6;cursor:pointer}
+.homepage .page1 header .right ul:first-child li:hover,.homepage .page1 header .right ul:nth-child(2) .on a{opacity:1}
+.homepage .page1 header .right ul:first-child li:first-child{margin-left:0}
+.homepage .page1 header .right ul:first-child li:before{content:'';display:inline-block;width:15px;height:15px;vertical-align:middle;margin-right:15px;background-repeat:no-repeat;background-size:100% 100%}
+.homepage .page1 header .right ul:first-child li:first-child:before{background-image:url(../images/index/Shape.png)}
+.homepage .page1 header .right ul:first-child li:nth-child(2):before{background-image:url(../images/index/qq.png)}
+.homepage .page1 header .right ul:first-child li:nth-child(3):before{background-image:url(../images/index/adress.png)}
+.homepage .page1 header .right ul:first-child li:hover:first-child:before{background-image:url(../images/index/Shapecur.png)}
+.homepage .page1 header .right ul:first-child li:hover:nth-child(2):before{background-image:url(../images/index/qqcur.png)}
+.homepage .page1 header .right ul:first-child li:hover:nth-child(3):before{background-image:url(../images/index/adresscur.png)}
+.homepage .page1 header .right ul:nth-child(2){margin-top:15px}
+.homepage .page1 header .right ul:nth-child(2) li{margin-left:44px;padding:10px;box-sizing:border-box}
+.homepage .page1 header .right ul:nth-child(2) li a{opacity:.5;font-family:PingFangSC-Regular;font-size:16px;color:#FFF;letter-spacing:3.84px}
+.homepage .page1 header .right ul:nth-child(2) li:first-child{margin-left:0}
+.homepage .page1 .btn,.homepage .page1 .title{margin-left:121px;font-family:PingFangSC-Semibold;color:#FFF}
+.homepage .page1 header .right ul:nth-child(2) li:hover a{opacity:1}
+.homepage .page1 header botton{position:absolute;right:32px;top:30px;cursor:pointer;opacity:.6;border:2px solid rgba(255,255,255,.6);font-family:PingFangSC-Regular;font-size:14px;color:#FFF;letter-spacing:1.75px;padding:13px;box-sizing:border-box}
+.homepage .page1 header botton:hover{border:2px solid #ea5412;color:#ea5412;opacity:1}
+.homepage .page1 .title{font-size:72px;letter-spacing:10px;margin-top:13%}
+.homepage .page1 .titlenode{margin-top:41px;overflow:hidden}
+.homepage .page1 .titlenode ul{overflow:hidden;margin-left:121px}
+.homepage .page1 .titlenode ul li{float:left;width:130px;border-right:1px solid #676767;padding-left:24px;box-sizing:border-box;font-family:PingFangSC-Semibold;font-size:18px;letter-spacing:2.5px}
+.homepage .page1 .titlenode ul li:first-child{padding-left:0}
+.homepage .page1 .titlenode ul li:last-child{border-right:none}
+.homepage .page1 .titlenode ul li a{color:#FFF}
+.homepage .page1 .btn{display:block;width:266px;height:60px;line-height:60px;text-align:center;font-size:20px;letter-spacing:2.78px;background-color:#F34D2E;margin-top:60px}
+.homepage .page2{background-color:#FFF}
+.homepage .page2 .title{margin-top:70px}
